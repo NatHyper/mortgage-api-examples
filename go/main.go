@@ -34,7 +34,7 @@ type SummaryResponse struct {
 }
 
 func main() {
-	apiBase := "http://localhost:8080/api"
+	apiBase := "https://cleargage.co.uk/api"
 
 	// Step 1: Register to get an API key
 	registerReq := RegisterRequest{

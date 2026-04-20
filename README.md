@@ -13,7 +13,7 @@ Working examples for the Mortgage Financial Modelling Tool API.
 
 1. Get your API key by running any example
 2. Use the key in subsequent requests
-3. See full API documentation at [link to your docs]
+3. See full API documentation at [https://cleargage.co.uk/api-docs.html](https://cleargage.co.uk/api-docs.html)
 
 ## Examples
 
@@ -26,6 +26,6 @@ Working examples for the Mortgage Financial Modelling Tool API.
 
 ## Notes
 
-- All examples use localhost:8080. Change the URL for production.
+- All examples call the production API at `https://cleargage.co.uk/api`
 - Each example registers a new API key automatically.
 - Save your API key for future requests.

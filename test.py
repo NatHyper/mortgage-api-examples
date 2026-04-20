@@ -2,7 +2,7 @@ import requests
 import json
 
 # Step 1: Register and get an API key
-register_url = "http://localhost:8080/api/register"
+register_url = "https://cleargage.co.uk/api/register"
 register_data = {
     "name": "Test User",
     "email": "test@example.com"
@@ -13,7 +13,7 @@ api_key = response.json()["api_key"]
 print(f"Your API key: {api_key}")
 
 # Step 2: Make a calculation
-summary_url = "http://localhost:8080/api/summary"
+summary_url = "https://cleargage.co.uk/api/summary"
 headers = {
     "X-API-Key": api_key,
     "Content-Type": "application/json"

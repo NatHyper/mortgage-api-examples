@@ -2,7 +2,7 @@ import requests
 import json
 
 # Configuration
-API_BASE = "http://localhost:8080/api"
+API_BASE = "https://cleargage.co.uk/api"
 
 # Step 1: Register to get an API key
 register_url = f"{API_BASE}/register"

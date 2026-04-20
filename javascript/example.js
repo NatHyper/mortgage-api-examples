@@ -1,11 +1,11 @@
 const https = require('https');
 
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = 'https://cleargage.co.uk/api';
 
 // Helper function for HTTP requests
 function request(url, options, data = null) {
     return new Promise((resolve, reject) => {
-        const req = require('http').request(url, options, (res) => {
+        const req = require('https').request(url, options, (res) => {
             let body = '';
             res.on('data', (chunk) => body += chunk);
             res.on('end', () => {
