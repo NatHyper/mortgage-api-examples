@@ -27,5 +27,5 @@ Working examples for the Mortgage Financial Modelling Tool API.
 ## Notes
 
 - All examples call the production API at `https://cleargage.co.uk/api`
-- Each example registers a new API key automatically.
+- Each example registers a new API key automatically. Be advised that registration allows 5 registration attempts per hour per IP address. If you see a rate limit error, wait an hour or use a different network.
 - Save your API key for future requests.

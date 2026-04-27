@@ -33,6 +33,9 @@ type SummaryResponse struct {
 	InterestSaved  float64 `json:"interest_saved"`
 }
 
+// Note: The free tier allows 5 registration attempts per hour per IP address.
+// If you see a rate limit error, wait an hour or use a different network.
+
 func main() {
 	apiBase := "https://cleargage.co.uk/api"
 
